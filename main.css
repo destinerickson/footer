@@ -20,9 +20,9 @@ body, html {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto auto auto;
     grid-template-areas: 
-        ". c c c c c c . . w . ."
-        ". c c c c c c . . s . ."
-        ". c c c c c c . . b . .";
+        ". c s c c c c c c c c ."
+        ". c w c c c c c c c c ."
+        ". c b c c c c c c c c .";
 }
 
 .contact-wrapper {
